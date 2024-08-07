@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  color: #02297e;
 
 }
 
@@ -13,7 +14,7 @@
   padding: 50px;
   width: 30%;
   height: 90%;
-  background-color: cornflowerblue;
+  background-color:#9ecddd8c;
   margin: 0 auto;
   margin-top: 100px;
   border-radius: 12px;
@@ -40,4 +41,25 @@
   margin-top: 40px;
   width: 100px;
   border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+  .container {
+      width: 95%;
+      padding-top: 10px;
+  }
+
+  .resultado{
+      text-align: center;
+      margin-top: 0;
+
+  }
+
+  .container{
+      width: 100vw;
+      height: 100vh;
+      justify-content: center;
+      margin-top: 0;
+      
+  }
 }
